@@ -1,0 +1,20 @@
+window#waybar {
+    border-radius: 5px;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 14px;
+    background-color: rgba(50, 50, 50, 0.9);
+}
+
+#pulseaudio,
+#network,
+#cpu,
+#memory,
+#temperature,
+#backlight,
+#keyboard-state,
+#battery,
+#clock,
+#tray {
+    padding: 0 8px;
+}
+
