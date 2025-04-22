@@ -1,8 +1,8 @@
 window#waybar {
     border-radius: 5px;
-    font-family: "JetBrainsMono Nerd Font";
+    font-family: "Inter Variable";
     font-size: 14px;
-    background-color: rgba(50, 50, 50, 0.9);
+    background-color: rgba(30, 30, 30, 0.9);
 }
 
 #pulseaudio,
