@@ -1,11 +1,8 @@
 return {
   { 
-    "rebelot/kanagawa.nvim",
+    "ayu-theme/ayu-vim",
     config = function() 
-      require("kanagawa").setup({
-	transparent = true
-      })
-      vim.cmd("colorscheme kanagawa-dragon")
+      vim.cmd("colorscheme ayu")
     end
   }
 }

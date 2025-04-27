@@ -1,9 +1,6 @@
 -- Open netrw
 vim.keymap.set("n", "<leader>ft", vim.cmd.Ex)
 
--- Minimal number of screen lines to keep above and below the cursor
-vim.opt.scrolloff = 10
-
 -- Clear highlights on search when pressing <Esc> in normal mode
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
@@ -25,6 +22,11 @@ vim.keymap.set("n", "<leader>wh", "<C-w>h")
 vim.keymap.set("n", "<leader>wj", "<C-w>j")
 vim.keymap.set("n", "<leader>wk", "<C-w>k")
 vim.keymap.set("n", "<leader>wl", "<C-w>l")
+
+vim.opt.termguicolors = true
+
+-- Minimal number of screen lines to keep above and below the cursor
+vim.opt.scrolloff = 10
 
 -- Configure tab width
 vim.opt.shiftwidth = 4
