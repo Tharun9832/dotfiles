@@ -40,6 +40,6 @@ element normal.normal, element alternate.normal {
 }
 
 element selected.normal {
-    background-color: rgba(0,0,0,20%);
+    background-color: rgba(255,255,255,10%);
     text-color: White;
 }
