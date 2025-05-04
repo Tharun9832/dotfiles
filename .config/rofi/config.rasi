@@ -1,0 +1,45 @@
+configuration {
+    font: "Inter Regular 12";
+    show-icons: true;
+    terminal: "ghostty";
+}
+
+window {
+    background-color: rgba(0,0,0,70%);
+    border-radius: 5px;
+}
+
+mainbox {
+    background-color: transparent;
+}
+
+inputbar {
+    background-color: transparent;
+    padding: 7px;
+    border: 0;
+}
+
+prompt {
+    enabled: false; 
+}
+
+entry {
+    placeholder: "Search applications";
+    text-color: White;
+}
+
+element {
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+element normal.normal, element alternate.normal {
+    background-color: transparent;
+    text-color: White;
+}
+
+element selected.normal {
+    background-color: rgba(0,0,0,20%);
+    text-color: White;
+}
