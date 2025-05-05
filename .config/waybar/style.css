@@ -11,10 +11,12 @@ window#waybar {
 #memory,
 #temperature,
 #backlight,
-#keyboard-state,
 #battery,
 #clock,
 #tray {
-    padding: 0 8px;
+    margin: 0 8px;
 }
 
+#battery {
+    margin-right: 16px;
+}

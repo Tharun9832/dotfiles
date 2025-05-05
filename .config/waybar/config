@@ -12,6 +12,9 @@
 	"hyprland/workspaces",
 	"hyprland/window",
     ],
+    "modules-center": [
+	"clock",
+    ],
     "modules-right": [
 	"tray",
         "pulseaudio",
@@ -21,7 +24,6 @@
         "temperature",
         "backlight",
         "battery",
-        "clock",
     ],
     // Modules configuration
     "hyprland/workspaces": {
