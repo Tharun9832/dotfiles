@@ -1,13 +1,11 @@
 return {
   { 
-    "projekt0n/github-nvim-theme",
+    "loctvl842/monokai-pro.nvim",
     config = function() 
-      require("github-theme").setup({
-	options = {
-	  transparent = true
-	}
+      require('monokai-pro').setup({
+	filter = 'spectrum'
       })
-      vim.cmd("colorscheme github_dark_default")
+      vim.cmd("colorscheme monokai-pro")
     end
   }
 }
